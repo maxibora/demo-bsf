@@ -1,0 +1,135 @@
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.logo {
+  width: 14%;
+  height: auto;
+  overflow: clip;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: auto;
+  user-select: none;
+  height: 75vh;
+  overflow: auto;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.8vw;
+  color: #2e76b7;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.subtitle {
+  font-size: 1.7vw;
+  color: #6fbee4;
+}
+
+.botonera {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.bt1,
+.bt2,
+.bt3 {
+  padding: 2%;
+  border: none;
+  border-radius: 8px;
+  width: 20%;
+  height: 14.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5vw;
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px rgb(0 0 0 / 16%);
+}
+
+.img {
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+.bt1 {
+  background-color: rgb(59, 121, 150);
+}
+
+.bt2 {
+  background-color: rgb(111, 194, 232);
+}
+
+.bt3 {
+  background-color: rgb(47, 117, 183);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  /* height: ; */
+}
+
+.stores {
+  background-color: rgb(59, 121, 150);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.stores label {
+  font-size: 1.5vw;
+  padding-left: 2%;
+  font-weight: bold;
+  color: white;
+}
+
+.stores img {
+  width: 30%;
+  padding: 1% 0 2% 2%;
+}
+
+.bt_llamar {
+  background-color: rgb(111, 190, 228);
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.bt_llamar img {
+  padding: 2%;
+  width: 100%;
+}
+
+.qr {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 1%;
+}
